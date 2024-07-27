@@ -24,6 +24,8 @@ nav {
   justify-content: space-between;
   padding: 1rem 2rem;
   width: 100%;
+  position: fixed;
+  background-color: #353433;
   margin-bottom: 10px;
   align-items: center;
   /* box-shadow: 0 6px 10px rgb(126, 126, 126); */
@@ -67,7 +69,7 @@ nav ul li a:hover {
 
 .menu-icon a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -92,6 +94,7 @@ nav ul li a:hover {
     align-items: center;
     display: flex;
     padding: 7px;
+    color: white;
     position: relative;
   }
 
@@ -103,38 +106,13 @@ nav ul li a:hover {
 
 /* nav */
 
-/* judul */
-.judul {
-  text-align: center;
-  padding: 10px;
-}
-
-/* container */
-.container {
-  height: 550px;
-}
-
-.baca-jpg {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-/* container end */
 
 /* menu cari */
-
-.card {
-  flex-direction: column;
-}
-
 .menu-cari {
-  padding: 10px;
-  margin: 10px 50px 50px 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   position: relative;
   border: 2px solid rgb(231, 230, 230);
 }
@@ -144,9 +122,9 @@ nav ul li a:hover {
   line-height: 28px;
   align-items: center;
   position: relative;
-  width: 50%;
-  padding: 10px;
-  border-radius: 10px;
+  width: 500px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .input {
@@ -156,7 +134,7 @@ nav ul li a:hover {
   padding: 0 1rem;
   padding-left: 2.5rem;
   border: 2px solid transparent;
-  border-radius: 30px;
+  border-radius: 20px;
   outline: none;
   background-color: #f3f3f4;
   color: #0d0c22;
@@ -197,9 +175,13 @@ input:hover {
 .cards {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  /* width: 100%; */
+  flex-wrap: wrap;
   margin: auto;
-  overflow: auto;
+  padding: 10% 30px 0;
+  align-items: center;
+  height: 500px;
+  /* overflow: auto; */
 }
 
 .cards::-webkit-scrollbar {
@@ -238,26 +220,12 @@ input:hover {
 .objek h2 {
   font-size: 20px;
 }
-
-.details-e {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-.ds {
-  border-radius: 10px;
-  border: 1px solid rgb(202, 202, 202);
-  padding: 5px;
-  cursor: grab;
-}
-
+/* menu cari end */
 
 
 /* box  penjelasan*/
 .h3 {
-  margin-top: 70px;
+  margin-top: 20%;
   padding: 5px;
   font-size: 30px;
   width: 100%;
@@ -280,15 +248,17 @@ input:hover {
 
 .box2-title {
   font-size: 16px;
-
+  color: white;
 }
 
 .box2 {
   width: 15%;
   margin: 10px 10px 30px;
   border-radius: 10px;
-  /* border: 1px solid rgb(189, 189, 189); */
+  padding: 10px;
+  background-image: linear-gradient(rgb(118, 118, 118), rgb(40, 39, 39));
   text-align: center;
+  color: white;
   cursor: pointer;
 }
 
@@ -300,7 +270,15 @@ a {
 /* tag a */
 
 /* box penejelasan2  */
-.boxs1 {
+.h4 {
+  margin-top: 10%;
+  padding: 5px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+}
+/* .boxs1 {
   margin-top: 10px;
   display: flex;
   padding: 10px;
@@ -321,13 +299,7 @@ a {
 
 .boxs2-jpg {
   width: 100%;
-}
-
-.boxs3 {
-  width: 50%;
-  padding: 10px;
-  font-size: 20px;
-}
+} */
 
 /* atyle card web pembelajaran */
 .book {
@@ -337,20 +309,30 @@ a {
 }
 
 .cookieCard {
-  margin: 10px;
+  text-align: center;
   width: 35%;
   height: 200px;
   background: linear-gradient(to right, rgb(137, 104, 255), rgb(175, 152, 255));
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  position: relative;
+  margin: 10px;
+  padding: 10px;
+  /* position: relative; */
   overflow: hidden;
 }
-
+.jdl-book{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.titel{
+  color: white;
+}
+.accept-btn{
+  background-color: blue;
+}
 .cookieCard::before {
   width: 150px;
   height: 150px;
@@ -370,35 +352,12 @@ a {
   z-index: 2;
 }
 
-.cookieDescription {
-  font-size: 0.9em;
-  color: rgb(241, 241, 241);
-  z-index: 2;
-}
 
-.cookieDescription a {
-  color: rgb(241, 241, 241);
-}
-
-.acceptButton {
-  padding: 11px 20px;
-  background-color: #7b57ff;
-  transition-duration: .2s;
-  border: none;
-  color: rgb(241, 241, 241);
-  cursor: pointer;
-  font-weight: 600;
-  z-index: 2;
-}
-
-.acceptButton:hover {
-  background-color: #714aff;
-  transition-duration: .2s;
-}
 
 /* framework tutorial */
 .books {
   display: flex;
+  padding: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -416,17 +375,9 @@ a {
   justify-content: space-between;
   padding: 20px;
   gap: 15px;
-  position: relative;
+  /* position: relative; */
   font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.066);
-}
-
-
-.cookie-heading {
-  color: rgb(34, 34, 34);
-  font-weight: 400;
-  flex-wrap: nowrap;
-  overflow: auto;
+  /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.066); */
 }
 
 .cookie-para {
@@ -594,18 +545,12 @@ strong {
   .Logo {
     display: none;
   }
-
-  .container {
-    height: 350px;
-    display: none;
-  }
-
   .menu-cari {
     width: auto;
     flex-direction: column;
     text-align: center;
+    border: none;
     margin: 0;
-    margin: 10px 10px 20px;
   }
 
   .group {
@@ -622,7 +567,8 @@ strong {
   }
 
   .cards {
-    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    overflow: auto;
   }
 
   .cards::-webkit-scrollbar {
@@ -637,17 +583,18 @@ strong {
   }
 
   .box2-jpg {
-    border-radius: 10px;
     width: 100%;
     height: 50px;
+    display: none;
+    background-color: white;
   }
 
   .box2-title {
     overflow: auto;
     flex-direction: row;
     font-size: 14px;
+    color: rgb(255, 255, 255);
   }
-
   .box2 {
     width: 20%;
     height: 30%;
@@ -711,8 +658,8 @@ strong {
   .promosi-a {
     text-align: center;
     width: auto;
+    margin-top: -8%;
     padding: 10px;
-    margin-top: 70px;
     margin-bottom: 10px;
     border-radius: 20px;
   }
@@ -840,41 +787,21 @@ footer {
     border: none;
   }
 
-  .promotion-a {
-    width: 100%;
-    height: 40%;
-    display: none;
-  }
-
-  .promosi-a {
-    text-align: center;
-    margin-top: 70px;
-    display: none;
-    margin-bottom: 30px;
-    border-radius: 20px;
-  }
-
   .webinar {
     display: none;
   }
 
-  /* promotion */
-  .promotion {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px 0px 30% 30%;
-  }
-
-  .promosi {
-    margin-top: -15px;
-    height: 500px;
-    border-radius: 0px 0px 30% 30%;
-    background-color: #714aff;
-    margin-bottom: 30px;
-  }
-
-
   .menu-cari h2 {
     color: white;
+  }
+
+  /* promosi class */
+  .promosi-a{
+    display: none;
+  }
+
+  /* box */
+  .box2-jpg{
+    display: none;
   }
 }
