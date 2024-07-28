@@ -234,10 +234,21 @@ footer{
   .card-item{
     width: auto;
     margin: 10px;
+    height: auto;
   }
   .tombol-a{
    margin: 10px;
    margin-top: 40px;
+  }
+}
+
+@media (max-width: 300px){
+  /* card */
+  .tombol-a{
+    margin-bottom: 20px;
+  }
+  .artikel-a{
+    height: auto;
   }
 }
 
