@@ -22,7 +22,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 11px;
   width: 100%;
   /* position: fixed; */
   background-color: #353433;
@@ -57,7 +57,7 @@ nav ul li a:hover {
   font-size: 33px;
   align-items: center;
   cursor: pointer;
-  padding: 10px 0 0 5px;
+  padding: 10px;
   transition: 1s;
   border-radius: 10px;
 }
