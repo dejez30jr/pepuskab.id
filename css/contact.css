@@ -128,7 +128,7 @@ header h1 {
 /* Main Content */
 main {
   padding: 20px;
-  margin: 20px 0;
+  margin: 10px;
   width: 40%;
 }
 
@@ -204,14 +204,68 @@ footer{
   color: white;
 }
 
-@media (max-width: 300px){
+.pe{
+  display: none;
+}
+
+@media (max-width: 290px){
+  .Logo{
+    display: none;
+  }
+  main{
+    width: auto;
+    padding: 10px;
+  }
+  form{
+    width: auto;
+    box-shadow: none;
+  }
+  .card-item{
+    padding: 0;
+    margin-top: 10px;
+  }
+  .container{
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .item2{
+    flex-wrap: wrap;
+  }
+  .item1{
+    gap: 15px;
+  }
+}
+
+
+@media (max-width: 267px){
+.container{
+  display: none;
+}
+footer{
+  display: none;
+}
+.pe{
+  display: flex;
+}
+nav{
+  display: none;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+color: red;
+}
 }
 
 @media (max-width: 600px){
   .container{
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
   }
   main{
     width: auto;
