@@ -162,7 +162,7 @@ h2{
 }
 
 .artikel-a{
-  height: 250px;
+  height: auto;
   padding: 20px;
   margin-top: 10px;
   text-align: center;
