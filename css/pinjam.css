@@ -106,7 +106,7 @@ button.next {
 /* cards */
 .navigation{
   text-align: center;
-  margin: 20px 20% 40px;
+  margin: 20px 20% 30px;
   padding: 20px;
   border-radius: 15px;
 }
@@ -119,7 +119,6 @@ button.next {
   margin: 10px;
   background-color: rgb(58, 110, 213);
   color: rgb(255, 255, 255);
-  box-shadow: 0 6px 10px rgb(69, 68, 68);
   border: 1px solid rgb(0, 0, 0);
 }
 .navigation a:hover{
