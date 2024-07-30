@@ -246,6 +246,7 @@ footer{
   }
   .ci-jpg{
     height: 150px;
+      border-radius: 0px;
   }
   .card{
     flex-wrap: wrap;
