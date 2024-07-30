@@ -5,6 +5,14 @@ html,body{
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: white;
 }
 
 /* nab */
@@ -96,6 +104,35 @@ button.next {
 /* content end */
 
 /* cards */
+.navigation{
+  text-align: center;
+  margin: 20px 20% 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.navigation a{
+  padding: 8px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin: 10px;
+  background-color: rgb(58, 110, 213);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 6px 10px rgb(69, 68, 68);
+  border: 1px solid rgb(0, 0, 0);
+}
+.navigation a:hover{
+  background-color: tomato;
+  color: white;
+}
+.all-book{
+  display: flex;
+  overflow: auto;
+}
+.all-book::-webkit-scrollbar{
+  display: none;
+}
 .box{
   display: flex;
   justify-content: center;
@@ -108,6 +145,7 @@ button.next {
 
 .card{
   padding: 10px;
+  min-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -199,6 +237,14 @@ footer{
         flex-wrap: nowrap;
     }
   /* card */
+  .navigation{
+    margin: 0;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .navigation a{
+    margin: 5px;
+  }
   .ci-jpg{
     height: 150px;
   }
@@ -292,6 +338,21 @@ footer{
 }
 }
 
+@media (max-width: 291px){
+  .navigation a {
+    flex-direction: column;
+  }
+  #ilang{
+    display: none;
+  }
+}
+
+@media (max-width: 210px){
+  body{
+    display: none;
+  }
+}
+
 
 @media (min-width: 600px){
   body {
@@ -318,4 +379,7 @@ footer{
  .minicor-jpg{
   display: none;
  }
+ #ilang{
+  display: none;
+}
 }
