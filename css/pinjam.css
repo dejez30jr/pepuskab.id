@@ -106,7 +106,7 @@ button.next {
 /* cards */
 .navigation{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px 20% 30px;
   padding: 10px;
 }
@@ -239,6 +239,7 @@ footer{
     }
   /* card */
   .navigation{
+     justify-content: space-around;
     margin: 0;
     flex-wrap: nowrap;
     overflow: auto;
