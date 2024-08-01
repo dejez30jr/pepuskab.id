@@ -105,10 +105,10 @@ button.next {
 
 /* cards */
 .navigation{
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   margin: 20px 20% 30px;
-  padding: 20px;
-  border-radius: 15px;
+  padding: 10px;
 }
 
 
@@ -119,6 +119,7 @@ button.next {
   margin: 10px;
   background-color: rgb(58, 110, 213);
   color: rgb(255, 255, 255);
+  /* box-shadow: 0 6px 10px rgb(110, 110, 110); */
   border: 1px solid rgb(0, 0, 0);
 }
 .navigation a:hover{
@@ -145,6 +146,7 @@ button.next {
 .card{
   padding: 10px;
   min-width: 100%;
+  background-color: transparent;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -241,12 +243,15 @@ footer{
     flex-wrap: nowrap;
     overflow: auto;
   }
+  .navigation::-webkit-scrollbar{
+    display: none;
+  }
   .navigation a{
     margin: 5px;
   }
   .ci-jpg{
     height: 150px;
-      border-radius: 0px;
+    border-radius: 0px;
   }
   .card{
     flex-wrap: wrap;
@@ -286,9 +291,9 @@ footer{
 
   .class-free {
     display: flex;
-    overflow: auto;
-    padding: 10px
+    overflow: scroll;
     justify-content: space-around;
+    padding: 10px;
   }
 
   .class-free::-webkit-scrollbar {
@@ -342,9 +347,6 @@ footer{
 @media (max-width: 291px){
   .navigation a {
     flex-direction: column;
-  }
-  #ilang{
-    display: none;
   }
 }
 
