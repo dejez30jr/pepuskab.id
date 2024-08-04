@@ -37,7 +37,7 @@ window.onload = function() {
 // filter data nya
 
 let searchBox = document.querySelector('#search');
-let images = document.querySelectorAll('.card .card-item');
+let images = document.querySelectorAll('.all-book .card');
 
 
 searchBox.oninput = () => {
@@ -46,7 +46,7 @@ searchBox.oninput = () => {
     images.forEach(filter => {
         let title = filter.getAttribute('data-title');
         if (value == title) {
-            filter.style.display = 'block';
+            filter.style.display = 'flex';
         }
     });
 };
