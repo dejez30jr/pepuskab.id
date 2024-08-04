@@ -5,6 +5,13 @@ html,body{
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: white;
+}
+
 /* nav */
 
 .Logo{
@@ -272,6 +279,6 @@ color: red;
   }
   .card-item{
     width: auto;
-  
+    padding: 0;
   }
 }
