@@ -151,7 +151,23 @@ button.next {
   flex-wrap: wrap;
   justify-content: center;
 }
+.card-a{
+  padding: 10px;
+  min-width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .card-item{
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  transition: 1S;
+  margin: 10px;
+}
+.card-item-a{
   width: 20%;
   border-radius: 10px;
   border: 1px solid rgb(201, 201, 201);
@@ -162,12 +178,26 @@ button.next {
   text-decoration: none;
   color: black;
 }
+.card-item-a a{
+  text-decoration: none;
+  color: black;
+}
 
 .card-item:hover{
   box-shadow: 0 6px 15px rgb(99, 99, 99);
   border: 2px solid red;
 }
-
+.poster-card{
+  height: 40%;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+.bucin-jpg{
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+}
 .ci-jpg{
   width: 100%;
   height: 200px;
@@ -254,11 +284,36 @@ footer{
     height: 150px;
     border-radius: 0px;
   }
+  .poster-card{
+    display: flex;
+    height: 30%;
+    margin-bottom: 15px;
+  }
+  .bucin-jpg{
+    width: 100%;
+    border-radius: 20px;
+  }
   .card{
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
   }
+  /* .card-a{
+    flex-wrap: wrap;
+    background-color: rgb(68, 85, 79);
+    font-family: 'Open Sans', sans-serif;
+  } */
+  .card-a{
+    height: 600px;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+  }
   .card-item{
+    border-radius: 0px;
+    margin: 10px;
+    min-width: 40%;
+    overflow: auto;
+  }
+  .card-item-a{
     border-radius: 0px;
     margin: 10px;
     min-width: 40%;
