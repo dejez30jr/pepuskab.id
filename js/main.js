@@ -13,6 +13,12 @@ function showSlides(index) {
     document.querySelector('.slides').style.transform = `translateX(${-currentIndex * 100}%)`;
 }
 
+// reload input
+function clearInput() {
+    document.querySelector('.input').value = '';
+}
+
+
 function moveSlide(n) {
     showSlides(currentIndex + n);
     resetAutoSlide();
