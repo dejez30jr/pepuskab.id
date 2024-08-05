@@ -7,6 +7,17 @@ menuIcon.addEventListener("click", ()=>{
 
 
 
+// loading web
+window.addEventListener('load', function() {
+    const loadingScreen = document.getElementById('loading-screen');
+    const content = document.getElementById('content');
+    setTimeout(() => {
+        loadingScreen.style.display = 'none';
+        content.style.display = 'block';
+    }, 5000);
+});
+
+
 let currentIndex = 0;
 let autoSlideInterval;
 
