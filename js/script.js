@@ -7,6 +7,17 @@ menuIcon.addEventListener("click", ()=>{
 
 
 
+// scroll mouse
+document.querySelector('.card').addEventListener("wheel", function(event){
+    if(event.deltaY > 0){
+        this.scrollLeft += 50;
+    }else{
+        this.scrollLeft -= 50;
+    }
+})
+
+
+
 // loading web
 window.addEventListener('load', function() {
     const loadingScreen = document.getElementById('loading-screen');
