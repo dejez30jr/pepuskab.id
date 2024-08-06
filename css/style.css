@@ -5,6 +5,42 @@ html,body{
   box-sizing: border-box;
 }
 
+
+/* system log */
+#all-content{
+  display: none;
+}
+.card-pw{
+  height: 100vh;
+  align-items: center ;
+  display: flex;
+  justify-content: center;
+}
+.login{
+  background-color: rgb(184, 184, 184);
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+}
+.login input{
+  border-radius: 10px;
+  padding: 10px;
+}
+#jwb{
+  margin-bottom: 20px;
+  color: red;
+}
+strong{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* system log end */
+
 /* Gaya untuk loading screen */
 #loading-screen {
   position: fixed;
@@ -38,6 +74,13 @@ html,body{
    /* Konten disembunyikan saat loading screen aktif */
 }
 
+
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: white;
+}
 
 /* nav */
 
@@ -157,12 +200,18 @@ button.next {
 
 .card{
   padding: 10px;
+  flex-wrap: nowrap;
   display: flex;
-  flex-wrap: wrap;
+  overflow: hidden;
   justify-content: space-around;
 }
+.card::-webkit-scrollbar{
+  display: none;
+}
 .card-item{
-  width: 30%;
+  text-align: center;
+  min-width: 30%;
+  margin: 10px;
   height: auto;
   border-radius: 10px;
   border: 1px solid rgb(201, 201, 201);
