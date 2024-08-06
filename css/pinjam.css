@@ -210,6 +210,9 @@ button.next {
   display: none;
   text-align: center;
 }
+.poster-card1{
+  display: none;
+}
 .bucin-jpg{
   height: 100%;
   width: 80%;
@@ -312,6 +315,7 @@ footer{
   }
   .poster-card1{
     height: 20%;
+    display: flex;
     width: 100%;
     margin-bottom: 15px;
     display: flex;
@@ -322,6 +326,7 @@ footer{
   }
   .card{
     height: 800px;
+    background-color: aqua;
     overflow: auto;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
