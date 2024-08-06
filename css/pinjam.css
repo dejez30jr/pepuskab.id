@@ -11,6 +11,9 @@ html,body{
 body::-webkit-scrollbar{
   display: none;
 }
+.all-objek{
+
+}
 body{
   background-color: white;
 }
@@ -28,7 +31,7 @@ header {
 .search-bar{
   background-color: rgb(74, 114, 201);
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .search-bar input {
     padding: 10px;
@@ -36,11 +39,12 @@ header {
 }
 .menu-reload{
   font-size: 24px;
-  align-items: center;
+  /* align-items: center; */
   padding: 5px;
 }
 .menu-reload a{
   text-decoration: none;
+  padding: 5px;
   color: white;
 }
 .menu-icon{
@@ -196,7 +200,6 @@ button.next {
   text-decoration: none;
   color: black;
 }
-
 .card-item:hover{
   box-shadow: 0 6px 15px rgb(99, 99, 99);
   border: 2px solid red;
@@ -275,6 +278,10 @@ footer{
 /* responsive */
 
 @media (max-width: 600px){
+  /* sytem log */
+  .login{
+    width: auto;
+  }
     /* nav */
     .search-bar input {
         padding: 10px;
@@ -302,6 +309,12 @@ footer{
     display: flex;
     height: 30%;
     margin-bottom: 15px;
+  }
+  .poster-card1{
+    height: 15%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
   }
   .bucin-jpg{
     width: 100%;
