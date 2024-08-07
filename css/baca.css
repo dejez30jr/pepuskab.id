@@ -73,14 +73,12 @@ nav ul li a:hover {
 
 .menu-icon a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 @media (max-width: 600px) {
   nav {
-    top: 0;
     width: 100%;
-    position: fixed;
     color: #ffffff;
   }
 
