@@ -74,9 +74,11 @@ box-shadow: 0 6px 10px rgb(65, 64, 64);
     width: 100%;
     background-color: #333;
     position: fixed;
-      flex-wrap: wrap;
-      top: 0;
-     color: #ffffff;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 0;
+    padding: 0 10px 0;
+    color: #ffffff;
 /*        border-radius: 0px 0px 30px 30px; */
   }
   .tampilan-utama{
@@ -95,11 +97,19 @@ box-shadow: 0 6px 10px rgb(65, 64, 64);
       align-items: center;
       display: flex;
       padding: 8px;
+      margin: 8px;
       position: relative;
   }
   .menu-icon:hover{
     /* background-color: tomato; */
     color: white;
+  }
+  .Logo{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
   }
 }
 /* nav */
@@ -345,7 +355,7 @@ color: red;
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 20%;
+    margin-top: 30%;
   }
   .pengarahan{
     width: 100%;
