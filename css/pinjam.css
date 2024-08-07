@@ -326,7 +326,6 @@ footer{
   }
   .card{
     height: 800px;
-    background-color: aqua;
     overflow: auto;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
