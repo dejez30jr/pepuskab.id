@@ -8,7 +8,6 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
 body::-webkit-scrollbar{
   display: none;
 }
@@ -79,7 +78,9 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
   nav {
+    top: 0;
     width: 100%;
+    position: fixed;
     color: #ffffff;
   }
 
@@ -663,6 +664,7 @@ strong {
   .promosi-a {
     text-align: center;
     width: auto;
+    margin-top: 18%;
     margin-bottom: 10px;
     border-radius: 20px;
   }
@@ -787,7 +789,9 @@ footer {
   .container {
     display: none;
   }
-
+  .box1{
+    padding: 20px;
+  }
   .box2 {
     width: 15%;
     margin: 10px 10px 30px;
