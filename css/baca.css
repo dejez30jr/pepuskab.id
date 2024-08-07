@@ -44,7 +44,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: 2s;
   padding: 8px;
   font-size: 25px;
@@ -73,7 +73,7 @@ nav ul li a:hover {
 
 .menu-icon a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 600px) {
