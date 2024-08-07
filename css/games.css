@@ -259,6 +259,9 @@ header h1 {
     justify-content: space-around;
     display: none;
   }
+  .card-a{
+    display: none;
+  }
 
 @media (max-width: 290px){
   .Logo{
@@ -295,6 +298,15 @@ header h1 {
 .container{
   display: none;
 }
+.card{
+  display: none;
+}
+.pengarahan{
+  display: none;
+}
+.card-a{
+  display: none;
+}
 footer{
   display: none;
 }
@@ -323,5 +335,20 @@ color: red;
     width: 40%;
     flex-wrap: nowrap;
     overflow: auto;
+  }
+  .card-a{
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .pengarahan{
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .pengarahan:hover{
+  transform: scale(1.2);
   }
 }
