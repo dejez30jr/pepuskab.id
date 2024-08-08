@@ -146,7 +146,7 @@ button.next {
 }
 .all-book{
   display: flex;
-  overflow: auto;
+  overflow: hidden;
 }
 .all-book::-webkit-scrollbar{
   display: none;
@@ -310,7 +310,7 @@ footer{
   }
   .poster-card{
     display: flex;
-    height: 30%;
+    height: 20%;
     margin-bottom: 15px;
   }
   .poster-card1{
@@ -325,8 +325,6 @@ footer{
     border-radius: 20px;
   }
   .card{
-    height: 800px;
-    overflow: auto;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
   }
