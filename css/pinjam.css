@@ -310,11 +310,11 @@ footer{
   }
   .poster-card{
     display: flex;
-    height: 20%;
+    height: 15%;
     margin-bottom: 15px;
   }
   .poster-card1{
-    height: 20%;
+    height: 15%;
     display: flex;
     width: 100%;
     margin-bottom: 15px;
@@ -334,7 +334,6 @@ footer{
     font-family: 'Open Sans', sans-serif;
   } */
   .card-a{
-    height: 600px;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
   }
