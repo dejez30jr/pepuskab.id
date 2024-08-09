@@ -19,7 +19,8 @@ document.querySelector('.card').addEventListener("wheel", function(event){
     }else{
         this.scrollLeft -= 50;
     }
-})
+      event.preventDefault();
+});
 
 
 
