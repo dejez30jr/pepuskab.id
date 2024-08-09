@@ -346,6 +346,12 @@ footer{
     min-width: 40%;
     overflow: auto;
   }
+   .artikel-a{
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   flex-wrap: nowrap;
+   overflow: hidden;
+  }
   .card-item-a{
     border-radius: 0px;
     margin: 10px;
