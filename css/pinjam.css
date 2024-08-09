@@ -311,6 +311,7 @@ footer{
   .poster-card{
     display: flex;
     height: 15%;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
   .poster-card1{
@@ -326,6 +327,8 @@ footer{
   }
   .card{
     flex-wrap: wrap;
+    height: 1050px;
+    overflow: auto;
     font-family: 'Open Sans', sans-serif;
   }
   /* .card-a{
