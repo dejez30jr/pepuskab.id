@@ -1,3 +1,8 @@
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
+
+
 const menuIcon = document.getElementById("menu-icon")
 const menuList = document.getElementById("menu-list")
 
