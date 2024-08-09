@@ -1,3 +1,7 @@
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
+
 let currentIndex = 0;
 let autoSlideInterval;
 
