@@ -60,3 +60,13 @@ searchBox.oninput = () => {
         }
     });
 };
+
+// scroll bottom screen wkwkw
+    // window.onscroll = function() {
+    //     var waIcon = document.querySelector(".wa-float");
+    //     if (document.documentElement.scrollTop > 100) {
+    //         waIcon.style.display = "block";
+    //     } else {
+    //         waIcon.style.display = "none";
+    //     }
+    // };
