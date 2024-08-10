@@ -39,7 +39,7 @@ nav ul{
 
 nav ul li a{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition: 2s;
   padding: 8px;
   font-size: 25px;
@@ -65,20 +65,18 @@ box-shadow: 0 6px 10px rgb(65, 64, 64);
 }
 .menu-icon a{
   text-decoration: none; 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 
 }
 
 @media (max-width: 600px){
   nav{
     width: 100%;
-    background-color: #333;
-    position: fixed;
     flex-wrap: wrap;
     align-items: center;
     top: 0;
-    padding: 0 10px 0;
-    color: #ffffff;
+    padding: 1rem 2rem;
+    color: #000000;
 /*        border-radius: 0px 0px 30px 30px; */
   }
   .tampilan-utama{
@@ -355,7 +353,6 @@ color: red;
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 30%;
   }
   .pengarahan{
     width: 100%;
