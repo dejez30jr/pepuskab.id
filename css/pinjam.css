@@ -17,8 +17,18 @@ body::-webkit-scrollbar{
 body{
   background-color: white;
 }
-
-/* nab */
+/* screen */
+.all-screen{
+  display: flex;
+  overflow: hidden;
+}
+.item-screen1{
+  min-width: 100%;
+}
+.item-screen{
+  min-width: 100%;
+}
+/* nav 1 */
 header {
     display: flex;
     justify-content: space-between;
@@ -69,6 +79,32 @@ header {
     align-items: center;
 }
 
+
+/* nav 2 */
+nav{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 5px 0 5px;
+  background-color: #353433;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+nav ul li a{
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
 
 /* content */
 
@@ -291,15 +327,76 @@ footer{
 /* responsive */
 
 @media (max-width: 600px){
+  /* screen */
+.all-screen{
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  background-color: white;
+}
+.item-screen1{
+  min-width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+.all-screen::-webkit-scrollbar{
+  display: none;
+}
+.item-screen1::-webkit-scrollbar{
+  display: none;
+}
+.item-screen::-webkit-scrollbar{
+  display: none;
+}
+.item-screen{
+  min-width: 100%;
+  overflow: auto;
+}
+/* nav1 */
   header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* pastikan ini lebih tinggi dari elemen lain */
+    z-index: 1000;
+    background-color: #353433;
+    color: black;
+    display: none;
+}
+/* nav 2 */
+nav{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  padding: 5px 0 5px;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 6px 10px rgb(0, 0, 0);
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+nav ul li a{
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+#nv:hover{
+  background-color: rgb(21, 21, 21);
+  padding: 3px;
+  border-radius: 10px;
+  color: white;
 }
 body{
-  padding-top: 70px;
+ 
 }
   /* .sticky-bottom {
     position: fixed;
@@ -357,6 +454,8 @@ body{
     height: 1050px;
     overflow: auto;
     font-family: 'Open Sans', sans-serif;
+    background-color: aqua;
+    padding-bottom: 70px;
   }
   .artikel-a{
   white-space: nowrap;
@@ -379,6 +478,9 @@ body{
     min-width: 40%;
     overflow: auto;
   }
+  /* .card-item:last-child{
+    margin-bottom: 70px;
+  } */
   .card-item-a{
     border-radius: 0px;
     margin: 10px;
@@ -413,7 +515,7 @@ body{
 
   .class-free {
     display: flex;
-    overflow: auto;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
   }
@@ -424,7 +526,7 @@ body{
 
   .class {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c686.684C126.424%2c662.303%2c163.054%2c491.827%2c272.633%2c424.226C385.571%2c354.553%2c574.163%2c407.539%2c639.609%2c292.1C703.559%2c179.302%2c590.364%2c45.409%2c558.682%2c-80.326C530.776%2c-191.074%2c524.618%2c-305.403%2c464.572%2c-402.554C397.111%2c-511.703%2c321.555%2c-641.158%2c195.923%2c-667.253C70.252%2c-693.356%2c-35.782%2c-576.296%2c-156.052%2c-531.466C-265.596%2c-490.634%2c-390.957%2c-491.825%2c-479.503%2c-415.492C-574.513%2c-333.587%2c-663.222%2c-220.634%2c-662.122%2c-95.199C-661.036%2c28.654%2c-528.322%2c105.159%2c-473.96%2c216.45C-421.616%2c323.611%2c-434.434%2c460.257%2c-349.771%2c544.255C-258.558%2c634.751%2c-126.164%2c711.015%2c0%2c686.684' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 886.818C1499.039 875.434 1541.217 828.624 1590.49 794.167 1637.576 761.24 1700.872 742.255 1722.719 689.114 1744.461 636.227 1710.213 578.919 1702.26 522.293 1694.274 465.435 1702.002 406.738 1675.879 355.60900000000004 1645.348 295.851 1609.217 219.29199999999997 1542.746 210.07999999999998 1474.261 200.58800000000002 1434.428 295.771 1367.433 312.861 1296.202 331.03200000000004 1211.018 266.926 1151.385 309.914 1093.858 351.384 1103.394 439.959 1093.674 510.206 1084.004 580.09 1066.693 652.934 1094.978 717.566 1123.426 782.5699999999999 1183.234 829.1610000000001 1246.938 860.4110000000001 1306.458 889.6089999999999 1374.903 899.37 1440 886.818' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    width: auto;
+    width: 250%;
     text-align: center;
     display: flex;
     background-size: cover;
@@ -435,6 +537,9 @@ body{
     justify-content: center;
     margin: 10px;
     border-radius: 10px;
+  }
+  .class:last-child{
+    margin-bottom: 70px;
   }
   .class a{
     text-decoration: none;
@@ -448,8 +553,7 @@ body{
     width: 100%;
   }
   .course-on{
-    width: 90%;
-    margin: 10% auto;
+    width: 100%;
   }
   .revou {
     width: 80px;
