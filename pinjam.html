@@ -17,7 +17,7 @@
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <!--  No copy paste brow Created:dz30  -->
 
@@ -26,21 +26,47 @@
   <a href="https://wa.me/+62 831-0571-3174" class="wa-float" target="_blank">
     <img src="https://th.bing.com/th/id/OIP.i4KgmalaviygnKSKB4CYUwHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="WhatsApp" class="wa-icon">
 </a>
-
- <header>
-    <!-- <img src="aset/perpus.png" height="50" width="50" /> -->
+  <!-- nav 1 -->
+  <header>
     <div class="menu-icon">
-      <i><a class="ph ph-house" href="index.html" id="home"></a></i>
+      <i><a class="ph ph-house" href="index.html" id="home" style="color: black;"></a></i>
     </div>
     <div class="search-bar">
       <input type="text" id="search" class="input" placeholder="cari sesuai tag di bawah..">
     </div>
   </header>
+  <!-- nav 2 -->
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">
+          <i class="ph ph-house" style="font-size: 22px;" id="nv"></i>
+          <a style="font-size: 13px;">Home</a>
+        </a>
+      </li>
+      <li>
+        <a href="#screen1">
+          <i class="ph ph-book-open-text" style="font-size: 22px;" id="nv"></i>
+          <a style="font-size: 13px;">Books</a>
+        </a>
+      </li>
+      <li>
+        <a href="#screen2">
+          <i class="ph ph-chalkboard-simple" style="font-size: 22px;" id="nv"></i>
+          <a style="font-size: 13px;">Class</a>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
   <!-- nav end -->
 
 
   <!-- content img slide -->
+   <div class="all-screen">
+
+    <!-- screen 1 -->
+  <div class="item-screen1" id="screen1">
   <div class="slider">
     <div class="slides">
       <div class="slide">
@@ -52,7 +78,7 @@
       <div class="slide">
         <img src="aset/new.png" alt="Image 3">
       </div>
-       <div class="slide">
+      <div class="slide">
         <img src="aset/anyquetion.pinjam.png" alt="Image 4">
       </div>
       <div class="slide">
@@ -81,378 +107,393 @@
     <a href="#slide-3">Cerpen</a>
     <a href="#slide-4" id="ilang">Bucin</a>
   </div>
-  
 
- <div class="all-book">
-  <!-- RPL -->
-  <div class="card" id="slide-1" data-title="RPL">
 
-    <div class="poster-card1">
-      <img src="aset/rpl-poster.png" class="bucin-jpg"/>
-    </div>
+  <div class="all-book">
+    <!-- RPL -->
+    <div class="card" id="slide-1" data-title="RPL">
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books2.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Python</b>
-          <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
+      <div class="poster-card1">
+        <img src="aset/rpl-poster.png" class="bucin-jpg" />
+      </div>
+
+      <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books2.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Python</b>
+            <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
         <p class="tombol-a"><a href="#">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Javascript">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books1.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b class="b">Javascript</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Javascript">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books1.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b class="b">Javascript</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
           <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="Php">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books3.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>php</b>
-          <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+      <div class="card-item" data-title="Php">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books3.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>php</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
           <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Java">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books4.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>java</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Java">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books4.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>java</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="C++">
-      <img src="aset/books5.png" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>c++</b>
-        <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+      <div class="card-item" data-title="C++">
+        <img src="aset/books5.png" class="ci-jpg" />
+        <div class="artikel-a">
+          <b>c++</b>
+          <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
             <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
+        </div>
       </div>
-    </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Html">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books6.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>html</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Html">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books6.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>html</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900">
-      <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
-        <img src="aset/books7.png" class="ci-jpg" />
+      <div class="card-item">
+        <a href="https://forms.gle/BLB8n85bxA6VUzYU6">
+          <img src="aset/books7.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>pemogarman web</b>
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <img src="aset/books8.png" class="ci-jpg" />
         <div class="artikel-a">
-          <b>pemogarman web</b>
+          <b>UI/UX</b>
         </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <img src="aset/books8.png" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>UI/UX</b>
       </div>
     </div>
-  </div>
 
-<!-- komik -->
-  <div class="card" id="slide-2" data-title="Komik">
+    <!-- komik -->
+    <div class="card" id="slide-2" data-title="Komik">
 
-    <div class="poster-card1">
-      <img src="aset/komik-poster.png" class="bucin-jpg"/>
-    </div>
+      <div class="poster-card1">
+        <img src="aset/komik-poster.png" class="bucin-jpg" />
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="700">
-      <a href="https://www.webtoons.com/id/comedy/si-juki/list?title_no=447">
-        <img src="https://m.media-amazon.com/images/M/MV5BMTI3NzdlZTUtYjQwZi00MjZiLTkyZTQtNmE2NTlhMzk4ZTU1XkEyXkFqcGdeQXVyMjU0ODQ5NTA@._V1_FMjpg_UX1000_.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Sijuki</b>
-          <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
+      <div class="card-item" data-aos="fade-right" data-aos-delay="700">
+        <a href="https://www.webtoons.com/id/comedy/si-juki/list?title_no=447">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTI3NzdlZTUtYjQwZi00MjZiLTkyZTQtNmE2NTlhMzk4ZTU1XkEyXkFqcGdeQXVyMjU0ODQ5NTA@._V1_FMjpg_UX1000_.jpg"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Sijuki</b>
+            <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
         <p class="tombol-a"><a href="#">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a id="komik">
-        <img src="https://th.bing.com/th/id/OIP.3PZPaqRoiKN1recG1SuAjQHaKj?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b class="b">naruto</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
-          <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900">
-      <a href="https://www.webtoons.com/id/comedy/tahilalats/list?title_no=542">
-        <img src="https://th.bing.com/th/id/OIP.VSb4OnOXlfd1wMQsEocDCwHaNJ?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Tailalatcs</b>
-          <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
-          <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a href="https://www.webtoons.com/id/slice-of-life/dracko-diary/list?title_no=710">
-        <img src="https://cdn.gramedia.com/uploads/items/9786024801793_Drakos-Diary.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Dracko diary</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
-            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a href="https://www.webtoons.com/id/slice-of-life/go-cek/list?title_no=862">
-        <img src="https://th.bing.com/th/id/OIP.t1HeTrE_K1azIc8t-ARq6gHaHa?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Go-cek</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
-            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-    
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a href="https://www.webtoons.com/id/slice-of-life/warung/list?title_no=1476">
-        <img src="https://dewipuspasari.files.wordpress.com/2023/01/images-2023-01-29t122249.807.jpeg?w=300" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Warung</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
-            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900">
-      <a href="https://www.webtoons.com/id/slice-of-life/next-door-country/list?title_no=932">
-        <img src="https://swebtoon-phinf.pstatic.net/20170123_82/1485153890577PdvCS_JPEG/M_details.jpg?type=crop540_540" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Next Door Country</b>
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a href="https://www.webtoons.com/id/slice-of-life/pak-guru-inyong-pendidikan-khusus/list?title_no=4825">
-      <img src="https://cf.shopee.co.id/file/aff426927d2ad8d01c4b1dd6f40079d6" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>pak guru inyong</b>
+          </div>
+        </a>
       </div>
-    </a>
-    </div>
-  </div>
-  
 
-  <!-- cerpen -->
-  <div class="card" id="slide-3" data-title="Cerpen">
-
-    <div class="poster-card1">
-      <img src="aset/cerpen-poster.png" class="bucin-jpg"/>
-    </div>
-
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
-      <a href="https://dongengceritarakyat.com/cerita-rakyat-ciung-wanara/">
-        <img src="https://tabbayun.com/wp-content/uploads/2023/05/download-6.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Ciung wanara</b>
-          <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
-        <p class="tombol-a"><a href="#">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Javascript">
-      <a href="https://dongengceritarakyat.com/cerita-rakyat-calon-arang/">
-        <img src="https://a.cdn-myedisi.com/book/cover/pustakaobor-a_615fee0e8ef12137702023.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b class="b">Calon arang</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item">
+        <a id="komik">
+          <img src="https://th.bing.com/th/id/OIP.3PZPaqRoiKN1recG1SuAjQHaKj?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b class="b">naruto</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
           <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="Php">
-      <a href="https://dongengceritarakyat.com/cerita-dongeng-malin-kundang-cerita-rakyat-sumbar/">
-        <img src="https://cdn.gramedia.com/uploads/items/Cover-Depan-Malin-Kundang-Cikal-Aksara-600x771.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Malin kundang</b>
-          <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/comedy/tahilalats/list?title_no=542">
+          <img src="https://th.bing.com/th/id/OIP.VSb4OnOXlfd1wMQsEocDCwHaNJ?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Tailalatcs</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
           <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Java">
-      <a href="https://dongengceritarakyat.com/cerita-rakyat-ende-gunung-meja/">
-        <img src="https://th.bing.com/th/id/OIP.SEwjepbj-u_m0Y8Poyr65AHaEK?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>gunung meja</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/slice-of-life/dracko-diary/list?title_no=710">
+          <img src="https://cdn.gramedia.com/uploads/items/9786024801793_Drakos-Diary.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Dracko diary</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/slice-of-life/go-cek/list?title_no=862">
+          <img src="https://th.bing.com/th/id/OIP.t1HeTrE_K1azIc8t-ARq6gHaHa?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Go-cek</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/slice-of-life/warung/list?title_no=1476">
+          <img src="https://dewipuspasari.files.wordpress.com/2023/01/images-2023-01-29t122249.807.jpeg?w=300"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Warung</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/slice-of-life/next-door-country/list?title_no=932">
+          <img
+            src="https://swebtoon-phinf.pstatic.net/20170123_82/1485153890577PdvCS_JPEG/M_details.jpg?type=crop540_540"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Next Door Country</b>
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <a href="https://www.webtoons.com/id/slice-of-life/pak-guru-inyong-pendidikan-khusus/list?title_no=4825">
+          <img src="https://cf.shopee.co.id/file/aff426927d2ad8d01c4b1dd6f40079d6" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>pak guru inyong</b>
+          </div>
+        </a>
+      </div>
     </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="C++">
-      <a href="https://dongengceritarakyat.com/cerita-si-pitung/">
-      <img src="https://bukukita.com/babacms/displaybuku/62651_f.jpg" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>sipitung</b>
-        <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+
+    <!-- cerpen -->
+    <div class="card" id="slide-3" data-title="Cerpen">
+
+      <div class="poster-card1">
+        <img src="aset/cerpen-poster.png" class="bucin-jpg" />
+      </div>
+
+
+      <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
+        <a href="https://dongengceritarakyat.com/cerita-rakyat-ciung-wanara/">
+          <img src="https://tabbayun.com/wp-content/uploads/2023/05/download-6.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Ciung wanara</b>
+            <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
+        <p class="tombol-a"><a href="#">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item" data-title="Javascript">
+        <a href="https://dongengceritarakyat.com/cerita-rakyat-calon-arang/">
+          <img src="https://a.cdn-myedisi.com/book/cover/pustakaobor-a_615fee0e8ef12137702023.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b class="b">Calon arang</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+          <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item" data-title="Php">
+        <a href="https://dongengceritarakyat.com/cerita-dongeng-malin-kundang-cerita-rakyat-sumbar/">
+          <img src="https://cdn.gramedia.com/uploads/items/Cover-Depan-Malin-Kundang-Cikal-Aksara-600x771.jpg"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Malin kundang</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+          <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item" data-title="Java">
+        <a href="https://dongengceritarakyat.com/cerita-rakyat-ende-gunung-meja/">
+          <img src="https://th.bing.com/th/id/OIP.SEwjepbj-u_m0Y8Poyr65AHaEK?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>gunung meja</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+            <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item" data-title="C++">
+        <a href="https://dongengceritarakyat.com/cerita-si-pitung/">
+          <img src="https://bukukita.com/babacms/displaybuku/62651_f.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>sipitung</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
             <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
+          </div>
+        </a>
       </div>
-    </a>
-    </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Html">
-      <a id="cerpen">
-        <img src="https://th.bing.com/th/id/OIP.s8MhTD48uRfhzcw2Yx0EtAAAAA?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Sikancil</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Html">
+        <a id="cerpen">
+          <img src="https://th.bing.com/th/id/OIP.s8MhTD48uRfhzcw2Yx0EtAAAAA?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Sikancil</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900">
-      <a href="https://dongengceritarakyat.com/cerita-rakyat-batu-belah-batu-betangkup/">
-        <img src="https://img1.od-cdn.com/ImageType-400/5093-1/71F/B31/62/%7B71FB3162-D969-4C66-8A04-6F74B883B4EA%7DImg400.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>batu belah batu</b>
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a href="https://dongengceritarakyat.com/legenda-gua-ngerong-tuban/">
-      <img src="https://dongengceritarakyat.com/wp-content/uploads/2023/07/Legenda-Gua-Ngerong-Tuban.jpg" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>Gua ngerong</b>
+          </div>
+        </a>
       </div>
-    </a>
+
+      <div class="card-item">
+        <a href="https://dongengceritarakyat.com/cerita-rakyat-batu-belah-batu-betangkup/">
+          <img
+            src="https://img1.od-cdn.com/ImageType-400/5093-1/71F/B31/62/%7B71FB3162-D969-4C66-8A04-6F74B883B4EA%7DImg400.jpg"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>batu belah batu</b>
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <a href="https://dongengceritarakyat.com/legenda-gua-ngerong-tuban/">
+          <img src="https://dongengceritarakyat.com/wp-content/uploads/2023/07/Legenda-Gua-Ngerong-Tuban.jpg"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Gua ngerong</b>
+          </div>
+        </a>
+      </div>
     </div>
-  </div>
 
-  <!-- Komik and novel bucin -->
-  <div class="card" id="slide-4" data-title="Bucin">
+    <!-- Komik and novel bucin -->
+    <div class="card" id="slide-4" data-title="Bucin">
 
-    <div class="poster-card">
-      <img src="aset/bucin.png" class="bucin-jpg"/>
-    </div>
+      <div class="poster-card">
+        <img src="aset/bucin.png" class="bucin-jpg" />
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
-      <a href="https://www.webtoons.com/id/romance/nice-to-meet-you/list?title_no=2302">
-        <img src="https://i.pinimg.com/originals/ea/11/8c/ea118c0e2e80fc2fcf33795b7d32db46.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>nice to meet u</b>
-          <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
+      <div class="card-item" data-aos="fade-right" data-aos-delay="700" data-title="Python">
+        <a href="https://www.webtoons.com/id/romance/nice-to-meet-you/list?title_no=2302">
+          <img src="https://i.pinimg.com/originals/ea/11/8c/ea118c0e2e80fc2fcf33795b7d32db46.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>nice to meet u</b>
+            <!-- <p class="title">pinjam dulu bayar nanti silahkan ikuti persyaratan nya dan mengikuti prosedur yang sudah di tetapkan</p>
         <p class="tombol-a"><a href="#">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Javascript">
-      <a href="https://www.webtoons.com/id/romance/goddess/list?title_no=1392">
-        <img src="https://www.manga-news.com/public/images/vols/True_Beauty_6_kbooks.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b class="b">True beauty</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Javascript">
+        <a href="https://www.webtoons.com/id/romance/goddess/list?title_no=1392">
+          <img src="https://www.manga-news.com/public/images/vols/True_Beauty_6_kbooks.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b class="b">True beauty</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
           <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="Php">
-      <a href="https://komiku.id/manga/shall-we-have-dinner-tonight/">
-        <img src="https://komiku.com/wp-content/uploads/2022/02/shall-we-have-dinner-tonight.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Dinner tonight</b>
-          <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+      <div class="card-item" data-title="Php">
+        <a href="https://komiku.id/manga/shall-we-have-dinner-tonight/">
+          <img src="https://komiku.com/wp-content/uploads/2022/02/shall-we-have-dinner-tonight.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Dinner tonight</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
           <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Java">
-      <a href="https://komiku.com/manga/my-office-noonas-story/">
-        <img src="https://www.anime-planet.com/images/manga/covers/my-office-noonas-story-55887.jpg" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>My office noannas</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Java">
+        <a href="https://komiku.com/manga/my-office-noonas-story/">
+          <img src="https://www.anime-planet.com/images/manga/covers/my-office-noonas-story-55887.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>My office noannas</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
+          </div>
+        </a>
+      </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900" data-title="C++">
-      <a href="https://kaliscan.io/manga/first-crush">
-      <img src="https://cdn.1stmangago.com/thumbs/18-1583497817.jpg" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>First crush</b>
-        <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
+      <div class="card-item" data-title="C++">
+        <a href="https://kaliscan.io/manga/first-crush">
+          <img src="https://cdn.1stmangago.com/thumbs/18-1583497817.jpg" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>First crush</b>
+            <!-- <p class="title">silahkan hubungi jika terjadi kendala saat pengaksesan buku dan konfirmasi disini terimakasih</p>
             <p class="tombol-a"><a href="contact.html">Read more</a></p> -->
+          </div>
+        </a>
       </div>
-    </a>
-    </div>
 
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800" data-title="Html">
-      <a id="bucin">
-        <img src="https://th.bing.com/th/id/OIP.Is9Z5IJHAjQCqrWTTgUVJwHaLK?rs=1&pid=ImgDetMain" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>Galaxy</b>
-          <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
+      <div class="card-item" data-title="Html">
+        <a id="bucin">
+          <img src="https://th.bing.com/th/id/OIP.Is9Z5IJHAjQCqrWTTgUVJwHaLK?rs=1&pid=ImgDetMain" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Galaxy</b>
+            <!-- <p class="title">pilih video dan artiekel pembelajaran yang anda sukai semoga bermanfaat bagi kalian yang baca terimakasih</p>
             <p class="tombol-a"><a href="baca.html">Read more</a></p> -->
-        </div>
-      </a>
-    </div>
-
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="900">
-      <a id="bucin-pro1">
-        <img src="https://cdn.gramedia.com/uploads/items/FIX.png" class="ci-jpg" />
-        <div class="artikel-a">
-          <b>kado terbaik</b>
-        </div>
-      </a>
-    </div>
-
-    <div class="card-item" data-aos="fade-right" data-aos-delay="800">
-      <a id="bucin-pro2">
-      <img src="https://cdn.gramedia.com/uploads/items/9789792297065_Hujan-Bulan-Juni-Serpihan-Sajak.jpg" class="ci-jpg" />
-      <div class="artikel-a">
-        <b>Hujan bulan juni</b>
+          </div>
+        </a>
       </div>
-    </a>
-    </div>
 
+
+      <div class="card-item">
+        <a id="bucin-pro1">
+          <img src="https://cdn.gramedia.com/uploads/items/FIX.png" class="ci-jpg" />
+          <div class="artikel-a">
+            <b>kado terbaik</b>
+          </div>
+        </a>
+      </div>
+
+      <div class="card-item">
+        <a id="bucin-pro2">
+          <img src="https://cdn.gramedia.com/uploads/items/9789792297065_Hujan-Bulan-Juni-Serpihan-Sajak.jpg"
+            class="ci-jpg" />
+          <div class="artikel-a">
+            <b>Hujan bulan juni</b>
+          </div>
+        </a>
+      </div>
+
+    </div>
   </div>
+
 </div>
+
+<!-- screen 2 -->
+<div class="item-screen" id="screen2">
 
   <!-- class on -->
   <div class="course-on">
@@ -460,22 +501,21 @@
     <img src="aset/klas-on.png" class="minicor-jpg" />
   </div>
   <div class="class-free">
-    <div class="class" data-aos="fade-right" data-aos-delay="700">
-      <a
-        href="https://revou.co/important-links?utm_source=instagram&utm_medium=organic&utm_content=story_reshare">
+    <div class="class" >
+      <a href="https://revou.co/important-links?utm_source=instagram&utm_medium=organic&utm_content=story_reshare">
         <img src="aset/revoU.png" class="revou" />
         <p class="name-class">Revou.id</p>
       </a>
     </div>
 
-    <div class="class" data-aos="fade-right" data-aos-delay="800" id="cls-eror">
+    <div class="class" id="cls-eror">
       <a>
         <img src="aset/edspert.jpg" class="revou" />
         <p class="name-class">edspert.id</p>
       </a>
     </div>
 
-    <div class="class" data-aos="fade-right" data-aos-delay="900">
+    <div class="class">
       <a href="https://myskill.id/bootcamp">
         <img
           src="https://scontent.cdninstagram.com/v/t51.2885-19/412591214_1132375454813989_2445797822248163236_n.jpg?stp=dst-jpg_s80x80&_nc_cat=1&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=aSoE-GayAYoQ7kNvgGfWBhj&_nc_ht=scontent.cdninstagram.com&oh=00_AYDfgo6RN8o0_0NWavW2OYhWmQDSzZh2Lzntn46NGXmfjA&oe=66A4C7AB"
@@ -484,7 +524,7 @@
       </a>
     </div>
 
-    <div class="class" data-aos="fade-right" data-aos-delay="900">
+    <div class="class" >
       <a
         href="https://l.instagram.com/?u=http%3A%2F%2Flnk.bio%2FDQLab&e=AT0scFvDBlSTXhzv7zTpYJyYTMxGJ6cI9N7yz_IoLZ_fGPSYW-pSRPhLfzMupgQNbmTrdPz4FjSEm1zpE7aDpi8OHkqMtUL5AUJQTuM">
         <img
@@ -494,9 +534,9 @@
       </a>
     </div>
 
-    <div class="class" data-aos="fade-right" data-aos-delay="900">
+    <div class="class" >
       <a
-        href="https://l.instagram.com/?u=http%3A%2F%2Flnk.bio%2FDQLab&e=AT0scFvDBlSTXhzv7zTpYJyYTMxGJ6cI9N7yz_IoLZ_fGPSYW-pSRPhLfzMupgQNbmTrdPz4FjSEm1zpE7aDpi8OHkqMtUL5AUJQTuM">
+        href="https://instagram.com">
         <img
           src="https://scontent.cdninstagram.com/v/t51.2885-19/292101525_3247796788814084_7060427128395028981_n.jpg?stp=dst-jpg_s80x80&_nc_cat=100&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=ZSbIwmsg3LIQ7kNvgGrC3MU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&gid=ASbhQC4Xs6Hp-S71zBNxG4p&oh=00_AYD036R1Qc1QHPTvVJOPkyFGRbT_wQkGOWN9f1AOPfDANg&oe=66AED2A3"
           class="revou" />
@@ -504,45 +544,72 @@
       </a>
     </div>
 
-    <div class="class" data-aos="fade-right" data-aos-delay="900">
-      <a
-        href="https://linktr.ee/eduworkid">
+    <div class="class" >
+      <a href="https://instagram.com">
         <img
           src="https://scontent.cdninstagram.com/v/t51.2885-19/241143779_122654473439103_643394963049793624_n.jpg?stp=dst-jpg_s80x80&_nc_cat=102&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=Zacjcpu_ZQUQ7kNvgFYgttL&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&oh=00_AYD0wuhbCNfp42nsrWNYOIFrcnee8XDjiY8sJ7SzCqJZ9w&oe=66AEC979"
           class="revou" />
         <p class="name-class">eduwork.id</p>
       </a>
     </div>
+
+    <div class="class" >
+      <a
+        href="https://instagram.com">
+        <img
+          src="https://scontent.cdninstagram.com/v/t51.2885-19/292101525_3247796788814084_7060427128395028981_n.jpg?stp=dst-jpg_s80x80&_nc_cat=100&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=ZSbIwmsg3LIQ7kNvgGrC3MU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&gid=ASbhQC4Xs6Hp-S71zBNxG4p&oh=00_AYD036R1Qc1QHPTvVJOPkyFGRbT_wQkGOWN9f1AOPfDANg&oe=66AED2A3"
+          class="revou" />
+        <p class="name-class">codingstudio.id</p>
+      </a>
+    </div>
+
+    <div class="class" >
+      <a
+        href="https://instagram.com">
+        <img
+          src="https://scontent.cdninstagram.com/v/t51.2885-19/292101525_3247796788814084_7060427128395028981_n.jpg?stp=dst-jpg_s80x80&_nc_cat=100&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=ZSbIwmsg3LIQ7kNvgGrC3MU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&gid=ASbhQC4Xs6Hp-S71zBNxG4p&oh=00_AYD036R1Qc1QHPTvVJOPkyFGRbT_wQkGOWN9f1AOPfDANg&oe=66AED2A3"
+          class="revou" />
+        <p class="name-class">harisenin.offcl</p>
+      </a>
+    </div>
+
+    <div class="class">
+      <a
+        href="https://instagram.com">
+        <img
+          src="https://scontent.cdninstagram.com/v/t51.2885-19/292101525_3247796788814084_7060427128395028981_n.jpg?stp=dst-jpg_s80x80&_nc_cat=100&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=ZSbIwmsg3LIQ7kNvgGrC3MU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&gid=ASbhQC4Xs6Hp-S71zBNxG4p&oh=00_AYD036R1Qc1QHPTvVJOPkyFGRbT_wQkGOWN9f1AOPfDANg&oe=66AED2A3"
+          class="revou" />
+        <p class="name-class">enigmacamp</p>
+      </a>
+    </div>
   </div>
 
-  <footer>
-    <p>&copy; 2024 perpuskab, All rights reserved</p>
-  </footer>
+</div>
 
 
   <script>
-  const komik= document.getElementById('komik');
-  komik.addEventListener("click", ()=>{
-    alert('cooming soon bray')
-  })
+    const komik = document.getElementById('komik');
+    komik.addEventListener("click", () => {
+      alert('cooming soon bray')
+    })
 
-  const cerpen= document.getElementById('cerpen');
-  cerpen.addEventListener("click", ()=>{
-    alert('cooming soon bray')
-  })
+    const cerpen = document.getElementById('cerpen');
+    cerpen.addEventListener("click", () => {
+      alert('cooming soon bray')
+    })
 
-  const bucin= document.getElementById('bucin');
-  const bucinPro1= document.getElementById('bucin-pro1');
-  const bucinPro2= document.getElementById('bucin-pro2');
-  bucin.addEventListener("click", ()=>{
-    alert('cooming soon bray')
-  })
-  bucinPro1.addEventListener("click", ()=>{
-    alert('cooming soon bray')
-  })
-  bucinPro2.addEventListener("click", ()=>{
-    alert('cooming soon bray')
-  })
+    const bucin = document.getElementById('bucin');
+    const bucinPro1 = document.getElementById('bucin-pro1');
+    const bucinPro2 = document.getElementById('bucin-pro2');
+    bucin.addEventListener("click", () => {
+      alert('cooming soon bray')
+    })
+    bucinPro1.addEventListener("click", () => {
+      alert('cooming soon bray')
+    })
+    bucinPro2.addEventListener("click", () => {
+      alert('cooming soon bray')
+    })
   </script>
 
   <!-- cards end -->
